@@ -12,7 +12,6 @@ class BookmarksView extends view {
   }
 
   _generateMarkup() {
-    console.log(this._data);
     return this._data
       .map(bookmark => PreviewView.render(bookmark, false))
       .join('');
