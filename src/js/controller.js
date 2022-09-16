@@ -9,10 +9,6 @@ import searchView from './view/searchView.js';
 import addRecipeView from './view/addRecipeView.js';
 import { MODAL_CLOSE_SEC } from './config.js';
 
-// if(module.hot) {
-//   module.hot.accept();
-// }
-
 const controlRecipe = async function () {
   try {
     const id = window.location.hash.slice(1);
@@ -49,7 +45,6 @@ const controlSearchResults = async function () {
     await model.loadSearchResult(query);
 
     // Render Results
-    // resultView.render(model.state.search.results);
     resultView.render(model.getSearchResultPage());
 
     // Render initial pagination view
@@ -122,10 +117,6 @@ const controlUploadRecipe = async function (newRecipe) {
   }
 };
 
-const myFeature = function () {
-  console.log('welcome to the application!');
-};
-
 const init = function () {
   recipeView.addHandlerRender(controlRecipe);
   searchView.addHandlerSearch(controlSearchResults);
@@ -134,6 +125,5 @@ const init = function () {
   recipeView.addHandlerBookmark(controlAddBookmark);
   recipeView.addHandlerUpdateServings(controlServings);
   addRecipeView.addHandlerUpload(controlUploadRecipe);
-  myFeature();
 };
 init();
