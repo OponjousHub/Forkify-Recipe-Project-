@@ -28,7 +28,7 @@ All sessions are saved locally using **LocalStorage**, and recipes are fetched v
 ![Search Page Screenshot](./src/img/homepage2.png)
 
 ### 📋 Upload Recipe Page
-![upload page Screenshot](./src/img/upload.png)
+![upload page Screenshot](./src/img/uploadimage.png)
 
 ### 📋 Ingredient Page
 ![ingredient Screenshot](./src/img/ingredient.png)
