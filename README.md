@@ -25,13 +25,13 @@ All sessions are saved locally using **LocalStorage**, and recipes are fetched v
 
 ## 🖼️ Screenshots
 ### 🏠 Home / Search Page
-![Search Page Screenshot](./img/homepage2.png)
+![Search Page Screenshot](./scr/img/homepage2.png)
 
 ### 📋 Upload Recipe Page
-![upload page Screenshot](./img/upload.png)
+![upload page Screenshot](./scr/img/upload.png)
 
 ### 📋 Ingredient Page
-![ingredient Screenshot](./img/ingredient.png)
+![ingredient Screenshot](./scr/img/ingredient.png)
 
 ---
 
